@@ -94,6 +94,6 @@ medical-image-classification/
 
 **Yunes Abdulghani Mohammed Ghaleb**  
 AI Engineer | Machine Learning & Computer Vision  
-📍 Open to relocate – Middle East
+📍 Open to relocate internationally
 
 ⚠️ This project is intended for research and educational purposes only and should not be used as a standalone medical diagnostic system.
