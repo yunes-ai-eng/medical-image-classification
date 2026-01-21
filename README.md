@@ -63,6 +63,10 @@ A simple **user-friendly interface** was developed where users can:
 - OpenCV
 - Matplotlib, Seaborn
 - Scikit-learn
+
+## 📦 Trained Model
+The trained model file is not included due to size limitations.  
+It can be provided upon request or shared via cloud storage.
   
 ## Development Environment
 
