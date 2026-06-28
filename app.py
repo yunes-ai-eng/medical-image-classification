@@ -726,10 +726,10 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
     
-    if st.button(t["start_btn"], key="btn_diagnosis", use_container_width=True):
-        with st.spinner("🔄 Loading AI Engine..."):
-            time.sleep(0.5)
-        st.switch_page("pages/1_diagnosis.py")
+  if st.button(t["start_btn"], key="btn_diagnosis", use_container_width=True):
+    with st.spinner("🔄 Loading AI Engine..."):
+        time.sleep(0.5)
+    st.switch_page("1_diagnosis")
 
 with col2:
     st.markdown(f"""
@@ -743,7 +743,7 @@ with col2:
     if st.button(t["batch_btn"], key="btn_batch", use_container_width=True):
         with st.spinner("🔄 Loading Batch Processor..."):
             time.sleep(0.5)
-        st.switch_page("pages/2_batch.py")
+        st.switch_page("2_batch")
 
 with col3:
     st.markdown(f"""
@@ -757,7 +757,7 @@ with col3:
     if st.button(t["dashboard_btn"], key="btn_dashboard", use_container_width=True):
         with st.spinner("🔄 Loading Dashboard..."):
             time.sleep(0.5)
-        st.switch_page("pages/3_dashboard.py")
+        st.switch_page("3_dashboard")
 
 # ==================== DATASET STATS (قواعد البيانات) ====================
 st.markdown(f"""
